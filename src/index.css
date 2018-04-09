@@ -121,3 +121,11 @@ ul li {
 	margin-bottom: 50px;
 	border-radius: 3px;
 }
+
+h1 {
+	font-weight: 900;
+	font-size: 3em;
+	padding: 0.8em;
+	color: #fff;
+	margin-top: -10px;
+}

@@ -1,15 +1,15 @@
 import React from 'react';
 
 import './guess-section.css';
+import GuessCount from './guess-count';
+import GuessForm from './guess-form';
 
-export default function Guess() {
+export default function GuessSection() {
     return (
         <div className="guessSection">
-            <form>
-                <input type="text" className="guessInput" placeholder="Enter your Guess"></input>
-                <button className="guessBtn">Guess</button>
-                <p>Guess #<span id="count">0</span>!</p>
-            </form>
+            <GuessForm />
+            <GuessCount />
         </div>
     );
 }
+//<p>Guess #<span id="count">0</span>!</p>

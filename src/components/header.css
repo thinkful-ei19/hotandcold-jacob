@@ -12,21 +12,15 @@ nav ul li {
 
 nav ul li:first-child {
 	float: left;
+	margin-top: -18px;
+	margin-left: -40px;
 }
 
 nav ul li:last-child {
 	float: right;
+	margin-top: -18px;
 }
 
 nav a {
-
 	color: #fff;
-}
-
-h1 {
-	font-weight: 900;
-	font-size: 3em;
-	padding: 0.8em;
-	color: #fff;
-
 }
